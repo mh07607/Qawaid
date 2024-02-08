@@ -1,7 +1,8 @@
 {
+  "homepage": "https://mh07607.github.io/Qawaid",
   "name": "qawaid",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
