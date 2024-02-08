@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mh07607.github.io/Qawaid/#",
+  "homepage": "https://mh07607.github.io/Qawaid/",
   "name": "qawaid",
   "private": true,
   "version": "0.0.3",
@@ -9,12 +9,13 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
